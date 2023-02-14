@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    border-radius: 8px;
+}
+
+
+nav {
+    background-color: black;
+}
+
+h2 {
+    font-size: 2em;
+    color: red;
+    text-shadow: 1px 1px 2px white;
+}
+
+.ingredients {
+    width: 60%;
+    margin: 1em auto 1em auto;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 1em;
+    box-shadow: 2px 2px 20px black;
+    min-width: 650px;
+}
+
+.head-label {
+    font-weight: 800;
+    font-size: 1.4em;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+.checkbox {
+    margin: .7em;
+}
+
+checkboxcontainer {
+    margin-right: 1em;
+}
+
+checkboxcontainer label {
+    font-weight: 600;
+}
+
+.howManyBox, h3, h2, .price, .display-box, .ingredients {
+    text-align: center;
+}
+
+.howManyBox {
+    width: 2.2em;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.display-box {
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 2px 2px 20px black;
+    width:30%;
+    margin: 1em auto 2em auto;
+    height: 120px;
+    min-width: 220px;
+}
+
+
+.price {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('sandwich_image1.jpg');
+}
+
+button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+}
+
+
+
+
+
+
